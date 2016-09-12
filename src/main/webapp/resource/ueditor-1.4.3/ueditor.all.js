@@ -13137,6 +13137,7 @@ UE.plugins['insertcode'] = function() {
             'delphi':'Delphi',
             'diff':'Diff',
             'erlang':'Erlang',
+            'golang':'Golang',
             'groovy':'Groovy',
             'html':'Html',
             'java':'Java',

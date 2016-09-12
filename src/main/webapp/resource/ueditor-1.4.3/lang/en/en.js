@@ -110,6 +110,7 @@ UE.I18N['en'] = {
         'delphi':'Delphi',
         'diff':'Diff',
         'erlang':'Erlang',
+        'golang':'Golang',
         'groovy':'Groovy',
         'html':'HTML',
         'java':'Java',
