@@ -22,10 +22,12 @@
        <h3 class="headline">About</h3>
        <ul id="social_link">
          <li class="rss_button"><a target="_blank" href="${g.domain}/feed"></a></li>
-         <li class="github_button"><a target="_blank" href="https://github.com/dongfangshangren"></a></li>
+         <li class="github_button"><a target="_blank" href="https://github.com/zeemanhuang"></a></li>
        </ul>
-       <p>You can show your site introduction by using Site Introduction Widget. 
-       You also can show Social Icon on upper part, and search form at bottom. </p>
+          <p>协思，本名黄泽东，洋名Zeeman Huang，目前就职于成都某B2B电子商务公司，执着于软件基础设施建设和平台开发。
+              对互联网和企业级产品开发有深刻理解，对开发过程中的问题常有独到的见解。
+              对技术发展趋势和方向保持敏锐度，并合理运用为我们的客户创造价值。</p>
+          <p>邮件：amwicfai@gmail.com</p>
         <div id="search_area" class="clearfix">
           <form method="get" action="${g.domain}">
              <div class="search_input">
