@@ -240,8 +240,19 @@
     </dependency>
 
   </dependencies>
+
   <build>
    <finalName>zblog</finalName>
+    <resources>
+      <resource>
+        <directory>src/main/java</directory>
+        <includes>
+          <include>**/*.html</include>
+        </includes>
+        <!-- 是否替换资源中的属性-->
+        <filtering>false</filtering>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -268,7 +279,8 @@
         <!-- 以mvn jetty:run运行 -->
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
-        <version>9.2.6.v20141205</version>
+        <!--<version>9.2.6.v20141205</version>-->
+        <version>9.3.11.v20160721</version>
         <configuration>
           <httpConnector>
             <port>9080</port>
