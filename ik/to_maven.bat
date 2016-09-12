@@ -1,0 +1,1 @@
+"D:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\plugins\maven\lib\maven3\bin\mvn" install:install-file -Dfile=IKAnalyzer2012FF_u1.jar -DgroupId=IKAnalyzer -DartifactId=IKAnalyzer -Dversion=2012FF_u1 -Dpackaging=jar -DgeneratePom=true
