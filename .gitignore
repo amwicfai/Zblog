@@ -10,3 +10,4 @@ target/
 .project
 .classpath
 .tern-project
+/src/main/resources/jdbc.properties
